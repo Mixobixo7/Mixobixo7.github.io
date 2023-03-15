@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
 .table a
 {
     display:block;
+    color: black;
     text-decoration:none;
+    text-align: center;
 }
+.table {
+    border-collapse: collapse;
+    width: 800px;
+    margin: auto;
+  }
+  
+  .table td {
+    border: 1px solid black;
+    padding: 10px;
+  }
 #my-div {
     background-color: none;
     width: 300px;
@@ -13,4 +30,7 @@ a.fill-div {
     height: 100%;
     width: 100%;
     text-decoration: none;
+}
+h1{
+    text-align: center;
 }
